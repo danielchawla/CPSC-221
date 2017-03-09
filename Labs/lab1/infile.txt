@@ -1,0 +1,6 @@
+Hello.
+My name is Daniel.
+I'm taking CPSC 221.
+This is interesting.
+What's your name?
+What class are you in?
