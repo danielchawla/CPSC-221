@@ -1,0 +1,162 @@
+Created heap of size 15
+Current number of items in heap is: 0
+Heap is empty, can't access top!
+BEGINNING TESTS FOR PART 1A
+*** TESTING INSERT ***
+Adding item1,  with number 11 to heap
+Top of heap is: text_item{"item1",11}
+Adding item2,  with number 74 to heap
+Top of heap is: text_item{"item2",74}
+Adding item3,  with number 96 to heap
+Top of heap is: text_item{"item3",96}
+Adding item4,  with number 32 to heap
+Top of heap is: text_item{"item3",96}
+Adding item5,  with number 43 to heap
+Top of heap is: text_item{"item3",96}
+adding insert_test_-1,  with number -1 to heap
+Top of heap is: text_item{"item3",96}
+adding insert_test_0,  with number 0 to heap
+Top of heap is: text_item{"item3",96}
+adding insert_test_1,  with number 1 to heap
+Top of heap is: text_item{"item3",96}
+adding insert_test_2,  with number 2 to heap
+Top of heap is: text_item{"item3",96}
+adding swap_up_test_10,  with number 10 to heap
+Top of heap is: text_item{"item3",96}
+adding swap_up_test_110,  with number 110 to heap
+Top of heap is: text_item{"swap_up_test_110",110}
+adding swap_up_test_210,  with number 210 to heap
+Top of heap is: text_item{"swap_up_test_210",210}
+adding swap_up_test_310,  with number 310 to heap
+Top of heap is: text_item{"swap_up_test_310",310}
+adding swap_up_test_410,  with number 410 to heap
+Top of heap is: text_item{"swap_up_test_410",410}
+
+BEGINNING TESTS FOR PART 1B
+*** TESTING DELETEMAX ***
+Item returned from heap delete: text_item{"swap_up_test_410",410}
+Top of heap is now: text_item{"swap_up_test_310",310}
+Deleting all elements in heap
+Item returned from heap delete: text_item{"swap_up_test_310",310}
+Item returned from heap delete: text_item{"swap_up_test_210",210}
+Item returned from heap delete: text_item{"swap_up_test_110",110}
+Item returned from heap delete: text_item{"item3",96}
+Item returned from heap delete: text_item{"item2",74}
+Item returned from heap delete: text_item{"item5",43}
+Item returned from heap delete: text_item{"item4",32}
+Item returned from heap delete: text_item{"item1",11}
+Item returned from heap delete: text_item{"swap_up_test_10",10}
+Item returned from heap delete: text_item{"insert_test_2",2}
+Item returned from heap delete: text_item{"insert_test_1",1}
+Item returned from heap delete: text_item{"insert_test_0",0}
+Item returned from heap delete: text_item{"insert_test_-1",-1}
+Inserting elements with freqs of -1,0,1,2
+Top of heap is now: text_item{"delete_test_-1",-1}
+Top of heap is now: text_item{"delete_test_0",0}
+Top of heap is now: text_item{"delete_test_1",1}
+Top of heap is now: text_item{"delete_test_2",2}
+Left child of heap should be 1. Top should be 2.
+Item returned from heap delete: text_item{"delete_test_2",2}
+Top of heap should now be 1
+Top of heap is now: text_item{"delete_test_1",1}
+Right child of heap should be 0.
+Item returned from heap delete: text_item{"delete_test_1",1}
+Top of heap should now be 0
+Top of heap is now: text_item{"delete_test_0",0}
+Emptying heap...
+Item returned from heap delete: text_item{"delete_test_0",0}
+Item returned from heap delete: text_item{"delete_test_-1",-1}
+Attempting to delete from empty heap.
+Cannot delete, heap is empty!
+
+BEGINNING TESTS FOR PART 2
+Found: difficult in the input file 1 time(s).
+Found: a in the input file 4 time(s).
+Found: writing in the input file 1 time(s).
+Found: word in the input file 2 time(s).
+Found: calculate in the input file 2 time(s).
+Found: xyz in the input file 0 time(s).
+Found: empty string in the input file 0 time(s).
+Found: &xyz in the input file 0 time(s).
+Found: 1234555 in the input file 0 time(s).
+
+BEGINNING TESTS FOR PART 3
+*** Top 5 most frequent words: ***
+text_item{"the",40506}
+text_item{"of",19652}
+text_item{"and",14786}
+text_item{"a",14315}
+text_item{"to",13761}
+
+*** Top 5 most frequent words with at least 8 letters ***
+text_item{"thénardier",520}
+text_item{"something",361}
+text_item{"monsieur",360}
+text_item{"gavroche",308}
+text_item{"everything",304}
+
+*** Top 5 most frequent words with at least 6 letters ***
+text_item{"marius",1347}
+text_item{"valjean",1098}
+text_item{"himself",1063}
+text_item{"cosette",1000}
+text_item{"little",971}
+
+*** Top 5 most frequent words with at least 0 letters ***
+text_item{"the",40506}
+text_item{"of",19652}
+text_item{"and",14786}
+text_item{"a",14315}
+text_item{"to",13761}
+
+*** Top 5 most frequent words with at least 1 letters ***
+text_item{"the",40506}
+text_item{"of",19652}
+text_item{"and",14786}
+text_item{"a",14315}
+text_item{"to",13761}
+
+*** Top 5 most frequent words with at least 10 letters ***
+text_item{"thénardier",520}
+text_item{"everything",304}
+text_item{"fauchelevent",291}
+text_item{"themselves",248}
+text_item{"gillenormand",233}
+
+*** Top 5 most frequent words that begin with c ***
+text_item{"cosette",1000}
+text_item{"could",675}
+text_item{"come",548}
+text_item{"child",453}
+text_item{"can",432}
+
+*** Top 5 most frequent words that begin with a ***
+text_item{"and",14786}
+text_item{"a",14315}
+text_item{"at",4035}
+text_item{"as",3225}
+text_item{"all",2448}
+
+*** Top 5 most frequent words that begin with s ***
+text_item{"she",2436}
+text_item{"s",2043}
+text_item{"said",1790}
+text_item{"so",1180}
+text_item{"some",778}
+
+*** Top 5 most frequent words that begin with q ***
+text_item{"question",135}
+text_item{"quarter",124}
+text_item{"quite",102}
+text_item{"quitted",61}
+text_item{"questions",55}
+
+*** Top 5 most frequent words that begin with ! ***
+
+*** Top 5 most frequent words that begin with 1 ***
+text_item{"1815",41}
+text_item{"1830",38}
+text_item{"1832",34}
+text_item{"1823",22}
+text_item{"1",16}
+
