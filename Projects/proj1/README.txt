@@ -1,7 +1,3 @@
-Project Num: 1
-StudentID: 174-141-46 (Worked on project by myself).
-Ugrad login: x8q0b
-
 Description: 
 
 Implemented 2 functions in LQueue.C and created runway simulation in their entirety as instructed. Code compiles and works as expected on ugrad servers. 
